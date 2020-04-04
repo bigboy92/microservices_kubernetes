@@ -1,0 +1,13 @@
+Flag --generator has been deprecated, has no effect and will be removed in the future.
+Error from server (AlreadyExists): pods "ml-app" already exists
+NAME                                  READY   STATUS    RESTARTS   AGE
+kruthigagopalan-ml-559445569d-f5c7j   1/1     Running   0          38m
+machine-learning-app                  1/1     Running   0          6h
+ml-app                                1/1     Running   0          5h47m
+POD status is Running
+Forwarding from 0.0.0.0:80 -> 80
+Handling connection for 80
+Handling connection for 80
+Handling connection for 80
+E0403 21:36:37.931677    6128 portforward.go:233] lost connection to pod
+
